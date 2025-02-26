@@ -60,7 +60,7 @@ export function FocusCards({ cards }: { cards: Card[] }) {
         My{" "}
         <span className="text-purple">
           {" "}
-          <Cover>stacks</Cover>
+          <Cover>Stacks</Cover>
         </span>
       </h1>
       <div className="grid grid-cols-1 md:grid-cols-3 gap-10 max-w-5xl mx-auto md:px-8 w-full">

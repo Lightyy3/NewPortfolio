@@ -72,35 +72,40 @@ export const gridItems = [
 export const projects = [
   {
     id: 1,
-    title: "Positivus - Landing Page",
-    des: "Explore my digital marketing minimalist site with a surprise.",
-    img: "/6.jpg",
-    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg"],
-    link: "/ui.earth.com",
+    title: "Positivus - Digital Marketing Landing Page",
+    des: "A visually engaging digital marketing landing page packed with  stunning effects and animations, allowing anyone to easily create consultations and receive tailored strategies.",
+
+    img: "/18.jpg",
+    iconLists: ["/next.svg", "/gsap.svg", "/ts.svg", "/three.svg"],
+    link: "https://positivus-lac.vercel.app/",
   },
   {
     id: 2,
-    title: "Keeper -  Google Keep Inspired ",
-    des: "An incredibly fast and reliable way to organize your ideas. ",
-    img: "/5.jpg",
-    iconLists: ["/next.svg", "/tail.svg", "/ts.svg"],
-    link: "/ui.yoom.com",
+    title: "Threadr - A Cutting-Edge Social Media App",
+    des: "Discover Threadr, a lightning-fast and reliable social media app designed to help you effortlessly organize and share your ideas with the world.",
+
+    img: "/12.png",
+    iconLists: ["/re.svg", "/tail.svg", "/ts.svg"],
+    link: "https://yc-s42s.vercel.app/",
   },
   {
     id: 3,
-    title: " Restaurant First Page",
-    des: "A delicious and appealing design combined with the possibility to share your own meal",
-    img: "/7.jpg",
-    iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg"],
-    link: "/ui.aiimg.com",
+    title: "Bank UI - Modern Fintech Dashboard",
+
+    des: "A visually polished and interactive fintech UI, featuring smooth animations and cool effects, designed to enhance the asset management experience with clarity and ease of use.",
+
+    img: "/17.jpg",
+    iconLists: ["/re.svg", "/tail.svg", "/gsap.svg", "/three.svg"],
+    link: "https://bank-ui-lemon.vercel.app/",
   },
   {
     id: 4,
-    title: "Interactive Apple Iphone 3D Website",
-    des: "Recreated the Apple iPhone 15 Pro website, combining GSAP animations and Three.js 3D effects..",
-    img: "/p4.svg",
+    title: "Launchify - Next-Gen Startup App",
+    des: "Featuring a secure authentication system, allowing users to create and manage their own startups with ease while enjoying a seamless and intuitive user experience.",
+
+    img: "/15.jpg",
     iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/gsap.svg"],
-    link: "/ui.apple.com",
+    link: "https://launchify-six.vercel.app/",
   },
 ];
 
@@ -126,13 +131,13 @@ export const workExperience = [
     className: "md:col-span-2", // change to md:col-span-2
     thumbnail: "/3.svg",
   },
-  {
-    id: 4,
-    title: "Freelance App Dev Project",
-    desc: "Designed, developed, and maintained user-facing features leveraging modern front-end technologies to deliver responsive and intuitive user experiences.",
-    className: "md:col-span-2",
-    thumbnail: "/4.svg",
-  },
+  // {
+  //   id: 4,
+  //   title: "Freelance App Dev Project",
+  //   desc: "Designed, developed, and maintained user-facing features leveraging modern front-end technologies to deliver responsive and intuitive user experiences.",
+  //   className: "md:col-span-2",
+  //   thumbnail: "/4.svg",
+  // },
 ];
 
 export const socialMedia = [

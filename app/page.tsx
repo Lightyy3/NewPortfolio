@@ -44,6 +44,18 @@ const Home = () => {
       title: "GSAP",
       src: "/gsap.svg",
     },
+    {
+      title: "Java",
+      src: "/java.svg",
+    },
+    {
+      title: "PostreSQL",
+      src: "/sql.svg",
+    },
+    {
+      title: "NodeJS",
+      src: "/node4.svg",
+    },
   ];
   return (
     <main className="relative bg-black-100 flex justify-center items-center flex-col overflow-hidden mx-auto sm:px-10 px-5">
