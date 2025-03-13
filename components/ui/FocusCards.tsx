@@ -20,15 +20,15 @@ export const Card = React.memo(
       onMouseEnter={() => setHovered(index)}
       onMouseLeave={() => setHovered(null)}
       className={cn(
-        "rounded-2xl relative bg-gray-100 dark:bg-neutral-900 overflow-hidden h-60 md:h-96 w-full transition-all duration-300 ease-out",
+        "rounded-2xl relative bg-gray-100 dark:bg-neutral-900 overflow-hidden h-48 sm:h-56 md:h-64 w-full transition-all duration-300 ease-out", // Adjusted height for small screens
         hovered !== null && hovered !== index && "blur-sm scale-[0.98]"
       )}
     >
       <Image
         src={card.src}
         alt={card.title}
-        fill
-        className="object-cover absolute inset-0"
+        layout="fill" // Ensures the image fills the container
+        className="object-contain absolute inset-0 w-full h-full max-w-full max-h-full" // Changed to object-contain for better visibility
       />
       <div
         className={cn(

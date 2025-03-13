@@ -23,7 +23,7 @@ export function GlobeDemo() {
     directionalTopLight: "#ffffff",
     pointLight: "#ffffff",
     arcTime: 1000,
-    arcLength: 0.9,
+    arcLength: 1,
     rings: 1,
     maxRings: 3,
     initialPosition: { lat: 22.3193, lng: 114.1694 },
@@ -395,8 +395,8 @@ export function GlobeDemo() {
   ];
 
   return (
-    <div className="flex flex-row items-center justify-center py-4 md:h-10 mt-16  md:mb-24 relative w-full">
-      <div className="max-w-7xl mx-auto w-full relative overflow-hidden h-[40rem] px-4">
+    <div className="flex flex-row items-center justify-center py-2 sm:py-2 h-20 md:h-10 mt-8 sm:mt-2 md:mb-16 relative w-full">
+      <div className="max-w-7xl mx-auto w-full relative overflow-hidden h-[20rem] sm:h-[15rem] md:h-[30rem] px-4">
         <motion.div
           initial={{
             opacity: 0,
@@ -411,8 +411,8 @@ export function GlobeDemo() {
           }}
           className="div"
         ></motion.div>
-        <div className="absolute w-full bottom-0 inset-x-0 h-full bg-gradient-to-b pointer-events-none select-none from-transparent   z-40" />
-        <div className="absolute w-full -bottom-20 h-full md:h-30 z-10">
+        <div className="absolute w-full bottom-0 inset-x-0 h-full bg-gradient-to-b pointer-events-none select-none from-transparent z-40" />
+        <div className="absolute w-full -bottom-16 sm:-bottom-12 md:-bottom-20 h-full md:h-30 z-10">
           <World data={sampleArcs} globeConfig={globeConfig} />
         </div>
       </div>
