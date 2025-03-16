@@ -138,13 +138,6 @@ export const workExperience = [
 export const testimonials = [
   {
     quote:
-      "Features: Responsive Design, 3D Transformations, Interactive Sliders/Carousels,  Microinteractions, SEO Optimization, Scroll-Triggered Animations, Dynamic Content Loading.",
-    name: "Positivus - Digital Marketing Landing Page",
-    designation: "",
-    src: "/18.jpg",
-  },
-  {
-    quote:
       "Features: Authentication, Backend as a Service (BaaS) - Appwrite, Explore Page, Like, Save, Follow Functionality, CRUD Operations, React Query Integration, Responsive Design, Infinite Scrolling.",
     name: "Threadr -  Social Media App",
     designation: "",
@@ -163,6 +156,13 @@ export const testimonials = [
     name: "Bank UI - Modern Fintech Dashboard",
     designation: "",
     src: "/17.jpg",
+  },
+  {
+    quote:
+      "Features: Responsive Design, 3D Transformations, Interactive Sliders/Carousels, SEO Optimization, Scroll-Triggered Animations, Dynamic Content Loading, Request Creation and Storage with SQLite DataBase.",
+    name: "Positivus - Digital Marketing Landing Page",
+    designation: "",
+    src: "/18.jpg",
   },
 ];
 

@@ -85,7 +85,7 @@ export const AnimatedTestimonials = ({
                     width={500}
                     height={500}
                     draggable={false}
-                    className="h-full w-full rounded-3xl object-cover object-center"
+                    className="h-[40vh] mt-28 sm:mt-0  md:h-full w-full rounded-3xl object-cover object-center"
                   />
                 </motion.div>
               ))}
@@ -144,7 +144,7 @@ export const AnimatedTestimonials = ({
               ))}
             </motion.p>
           </motion.div>
-          <div className="flex gap-4 pt-12 md:pt-0 justify-center">
+          <div className="flex gap-4 pt-12 md:pt-0 justify-center md:mt-4">
             <button
               onClick={handlePrev}
               className="h-7 w-7 rounded-full bg-purple dark:bg-purple flex items-center justify-center group/button"
