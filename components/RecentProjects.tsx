@@ -4,14 +4,16 @@ import { FaLocationArrow } from "react-icons/fa6";
 
 import { projects } from "@/data";
 import { PinContainer } from "./ui/Pin";
+import { AnimatedTestimonials } from "./ui/AnimatedTestimonials";
+import { testimonials } from "@/data";
 
 const RecentProjects = () => {
   return (
-    <div className="py-20" id="projects">
+    <div className="py-20 bg-black-100" id="projects">
       <h1 className="heading mb-16">
         Recent <span className="text-purple"> Projects</span>
       </h1>
-      <div className="flex flex-wrap items-center justify-center p-4 gap-28 mt-10">
+      <div className="flex flex-wrap items-center justify-center p-4 gap-28 ">
         {projects.map((item) => (
           <div
             className="lg:min-h-[32.5rem]  h-[25rem] flex items-center justify-center sm:w-96 w-[80vw]"
@@ -70,6 +72,7 @@ const RecentProjects = () => {
           </div>
         ))}
       </div>
+      <AnimatedTestimonials testimonials={testimonials} />
     </div>
   );
 };

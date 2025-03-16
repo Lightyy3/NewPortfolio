@@ -1,7 +1,7 @@
 export const navItems = [
   { name: "About", link: "#about" },
   { name: "Projects", link: "#projects" },
-
+  { name: "Experience", link: "#experience" },
   { name: "Contact", link: "#contact" },
 ];
 
@@ -74,7 +74,6 @@ export const projects = [
     id: 1,
     title: "Positivus - Digital Marketing Landing Page",
     des: "A visually engaging digital marketing landing page packed with  stunning effects and animations, allowing anyone to easily create consultations and receive tailored strategies.",
-
     img: "/18.jpg",
     iconLists: ["/next.svg", "/gsap.svg", "/ts.svg", "/three.svg"],
     link: "https://positivus-lac.vercel.app/",
@@ -83,7 +82,6 @@ export const projects = [
     id: 2,
     title: "Threadr - A Cutting-Edge Social Media App",
     des: "Discover Threadr, a lightning-fast and reliable social media app designed to help you effortlessly organize and share your ideas with the world.",
-
     img: "/12.png",
     iconLists: ["/re.svg", "/tail.svg", "/ts.svg"],
     link: "https://yc-s42s.vercel.app/",
@@ -91,9 +89,7 @@ export const projects = [
   {
     id: 3,
     title: "Bank UI - Modern Fintech Dashboard",
-
     des: "A visually polished and interactive fintech UI, featuring smooth animations and cool effects, designed to enhance the asset management experience with clarity and ease of use.",
-
     img: "/17.jpg",
     iconLists: ["/re.svg", "/tail.svg", "/gsap.svg", "/three.svg"],
     link: "https://bank-ui-lemon.vercel.app/",
@@ -102,7 +98,6 @@ export const projects = [
     id: 4,
     title: "Launchify - Next-Gen Startup App",
     des: "Featuring a secure authentication system, allowing users to create and manage their own startups with ease while enjoying a seamless and intuitive user experience.",
-
     img: "/15.jpg",
     iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/gsap.svg"],
     link: "https://launchify-six.vercel.app/",
@@ -131,13 +126,44 @@ export const workExperience = [
     className: "md:col-span-2", // change to md:col-span-2
     thumbnail: "/3.svg",
   },
-  // {
-  //   id: 4,
-  //   title: "Freelance App Dev Project",
-  //   desc: "Designed, developed, and maintained user-facing features leveraging modern front-end technologies to deliver responsive and intuitive user experiences.",
-  //   className: "md:col-span-2",
-  //   thumbnail: "/4.svg",
-  // },
+  {
+    id: 4,
+    title: "Open Source App Dev Contribution",
+    desc: "Designed and maintained user-facing features leveraging modern front-end technologies to deliver responsive and intuitive user experiences.",
+    className: "md:col-span-2",
+    thumbnail: "/4.svg",
+  },
+];
+
+export const testimonials = [
+  {
+    quote:
+      "Features: Responsive Design, 3D Transformations, Interactive Sliders/Carousels,  Microinteractions, SEO Optimization, Scroll-Triggered Animations, Dynamic Content Loading.",
+    name: "Positivus - Digital Marketing Landing Page",
+    designation: "",
+    src: "/18.jpg",
+  },
+  {
+    quote:
+      "Features: Authentication, Backend as a Service (BaaS) - Appwrite, Explore Page, Like, Save, Follow Functionality, CRUD Operations, React Query Integration, Responsive Design, Infinite Scrolling.",
+    name: "Threadr -  Social Media App",
+    designation: "",
+    src: "/12.png",
+  },
+  {
+    quote:
+      "Features:  GitHub Authentication, Real Time Viewers Count, Live Content API, Search Function, Pitch Submission, Profile Page,  Editor Picks, Secure Backend with Sanity.",
+    name: "Launchify - Next-Gen Startup App",
+    designation: "",
+    src: "/15.jpg",
+  },
+  {
+    quote:
+      "Features:  Modern UI/UX Experience, 3D Effects and Transformations, SVG Animations, Scroll-Triggered Animations, Parallax Scrolling, Animated Backgrounds.",
+    name: "Bank UI - Modern Fintech Dashboard",
+    designation: "",
+    src: "/17.jpg",
+  },
 ];
 
 export const socialMedia = [

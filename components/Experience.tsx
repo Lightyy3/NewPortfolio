@@ -1,10 +1,15 @@
 import React from "react";
 import { workExperience } from "@/data";
 import { GlareCard } from "./ui/Glare";
+// import { AnimatedTestimonials } from "./ui/AnimatedTestimonials";
+// import { testimonials } from "@/data";
 
 const Experience = () => {
   return (
-    <div className="py-20 w-full z-10 items-center justify-center">
+    <div
+      className="py-20 w-full z-10 items-center justify-center"
+      id="experience"
+    >
       {/* <TextRevealCard
         text="You know the business"
         revealText="I know the chemistry "
@@ -14,7 +19,7 @@ const Experience = () => {
         My <span className="text-purple">Work Experience</span>
       </h1>
 
-      <div className="mt-12 grid lg:grid-cols-3 grid-cols-1 gap-10 items-start justify-center">
+      <div className="mt-12 grid lg:grid-cols-4 grid-cols-1 gap-10 items-start justify-center">
         {workExperience.map((card) => (
           <div
             key={card.id}
@@ -38,6 +43,7 @@ const Experience = () => {
           </div>
         ))}
       </div>
+      {/* <AnimatedTestimonials testimonials={testimonials} /> */}
     </div>
   );
 };
