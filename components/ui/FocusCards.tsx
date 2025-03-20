@@ -57,10 +57,10 @@ export function FocusCards({ cards }: { cards: Card[] }) {
   return (
     <>
       <h1 className="heading py-12">
-        My{" "}
+        {" "}
         <span className="text-purple">
           {" "}
-          <Cover>Stacks</Cover>
+          <Cover>Tech Stacks</Cover>
         </span>
       </h1>
       <div className="grid grid-cols-1 md:grid-cols-3 gap-10 max-w-5xl mx-auto md:px-8 w-full">

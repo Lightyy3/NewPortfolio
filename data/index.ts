@@ -72,14 +72,6 @@ export const gridItems = [
 export const projects = [
   {
     id: 1,
-    title: "Positivus - Digital Marketing Landing Page",
-    des: "A visually engaging digital marketing landing page packed with  stunning effects and animations, allowing anyone to easily create consultations and receive tailored strategies.",
-    img: "/18.jpg",
-    iconLists: ["/next.svg", "/gsap.svg", "/ts.svg", "/three.svg"],
-    link: "https://positivus-lac.vercel.app/",
-  },
-  {
-    id: 2,
     title: "Threadr - A Cutting-Edge Social Media App",
     des: "Discover Threadr, a lightning-fast and reliable social media app designed to help you effortlessly organize and share your ideas with the world.",
     img: "/12.png",
@@ -87,7 +79,7 @@ export const projects = [
     link: "https://yc-s42s.vercel.app/",
   },
   {
-    id: 3,
+    id: 2,
     title: "Bank UI - Modern Fintech Dashboard",
     des: "A visually polished and interactive fintech UI, featuring smooth animations and cool effects, designed to enhance the asset management experience with clarity and ease of use.",
     img: "/17.jpg",
@@ -95,12 +87,20 @@ export const projects = [
     link: "https://bank-ui-lemon.vercel.app/",
   },
   {
-    id: 4,
+    id: 3,
     title: "Launchify - Next-Gen Startup App",
     des: "Featuring a secure authentication system, allowing users to create and manage their own startups with ease while enjoying a seamless and intuitive user experience.",
     img: "/15.jpg",
     iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/gsap.svg"],
     link: "https://launchify-six.vercel.app/",
+  },
+  {
+    id: 4,
+    title: "Positivus - Digital Marketing Landing Page",
+    des: "A visually engaging digital marketing landing page packed with  stunning effects and animations, allowing anyone to easily create consultations and receive tailored strategies.",
+    img: "/18.jpg",
+    iconLists: ["/next.svg", "/gsap.svg", "/ts.svg", "/three.svg"],
+    link: "https://positivus-lac.vercel.app/",
   },
 ];
 
@@ -126,13 +126,13 @@ export const workExperience = [
     className: "md:col-span-2", // change to md:col-span-2
     thumbnail: "/3.svg",
   },
-  {
-    id: 4,
-    title: "Open Source App Dev Contribution",
-    desc: "Designed and maintained user-facing features leveraging modern front-end technologies to deliver responsive and intuitive user experiences.",
-    className: "md:col-span-2",
-    thumbnail: "/4.svg",
-  },
+  // {
+  //   id: 4,
+  //   title: "Open Source App Dev Contribution",
+  //   desc: "Designed and maintained user-facing features leveraging modern front-end technologies to deliver responsive and intuitive user experiences.",
+  //   className: "md:col-span-2",
+  //   thumbnail: "/4.svg",
+  // },
 ];
 
 export const testimonials = [

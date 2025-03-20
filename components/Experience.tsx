@@ -16,10 +16,10 @@ const Experience = () => {
         className="justify-center text-center text-purple"
       ></TextRevealCard> */}
       <h1 className="heading text-white  justify-center text-center">
-        My <span className="text-purple">Work Experience</span>
+        <span className="text-purple">Work Experience</span>
       </h1>
 
-      <div className="mt-12 grid lg:grid-cols-4 grid-cols-1 gap-10 items-start justify-center">
+      <div className="mt-12 grid lg:grid-cols-3 grid-cols-1 gap-10 items-start justify-center">
         {workExperience.map((card) => (
           <div
             key={card.id}
