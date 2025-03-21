@@ -60,7 +60,7 @@ const Hero = () => {
           /> */}
 
           <p className="text-center md:tracking-wider mb-4 text-sm md:text-lg lg:text-2xl">
-            Hi! I&apos;m Alex, a Web Developer. Glad to meet you!
+            Hi! I&apos;m Alex. Glad to have you here!
           </p>
 
           <a href="#projects">
