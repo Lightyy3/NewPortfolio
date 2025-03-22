@@ -138,21 +138,21 @@ export const workExperience = [
 export const testimonials = [
   {
     quote:
-      "Features: Authentication, Backend as a Service (BaaS) - Appwrite, Explore Page, Like, Save, Follow Functionality, CRUD Operations, React Query Integration, Responsive Design, Infinite Scrolling.",
+      "Features: Authentication, Backend as a Service (BaaS) - Appwrite, Explore Page, Like, Save, Follow Functionality, CRUD Operations, React Query Integration, Responsive Design, Infinite Scrolling, Shadcn.",
     name: "Threadr -  Social Media App",
     designation: "",
     src: "/12.png",
   },
   {
     quote:
-      "Features:  GitHub Authentication, Real Time Viewers Count, Live Content API, Search Function, Pitch Submission, Profile Page,  Editor Picks, Secure Backend with Sanity.",
+      "Features:  GitHub Authentication, Real Time Viewers Count, Live Content API, Search Function, Pitch Submission, Profile Page,  Editor Picks, Secure Backend with Sanity, Shadcn.",
     name: "Launchify - Next-Gen Startup App",
     designation: "",
     src: "/15.jpg",
   },
   {
     quote:
-      "Features:  Modern UI/UX Experience, 3D Effects and Transformations, SVG Animations, Scroll-Triggered Animations, Parallax Scrolling, Animated Backgrounds.",
+      "Features:  Modern UI/UX Experience, 3D Effects and Transformations, SVG Animations, Scroll-Triggered Animations, Parallax Scrolling, Animated Backgrounds, Redux, AI Integration, API Calls, Real Time Exchange Converter. ",
     name: "Bank UI - Modern Fintech Dashboard",
     designation: "",
     src: "/17.jpg",
