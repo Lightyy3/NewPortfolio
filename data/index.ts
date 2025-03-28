@@ -138,14 +138,14 @@ export const workExperience = [
 export const testimonials = [
   {
     quote:
-      "Features: Authentication, Backend as a Service (BaaS) - Appwrite, Explore Page, Like, Save, Follow Functionality, CRUD Operations, React Query Integration, Responsive Design, Infinite Scrolling, Shadcn.",
+      "Features: Authentication, Backend as a Service (BaaS) - Appwrite - NoSQL, Explore Page, Like, Save, Follow Functionality, User Page, CRUD Operations, React Query Integration, Responsive Design, Infinite Scrolling, Shadcn.",
     name: "Threadr -  Social Media App",
     designation: "",
     src: "/12.png",
   },
   {
     quote:
-      "Features:  GitHub Authentication, Real Time Viewers Count, Live Content API, Search Function, Pitch Submission, Profile Page,  Editor Picks, Secure Backend with Sanity, Shadcn.",
+      "Features:  GitHub Authentication, Real Time Viewers Count, Live Content API, Search Function, Pitch Submission, Profile Page,  Editor Picks, Secure Backend with Sanity, NoSQL Database, Shadcn.",
     name: "Launchify - Next-Gen Startup App",
     designation: "",
     src: "/15.jpg",
@@ -159,7 +159,7 @@ export const testimonials = [
   },
   {
     quote:
-      "Features: Responsive Design, 3D Transformations, Interactive Sliders/Carousels, SEO Optimization, Scroll-Triggered Animations, Dynamic Content Loading, Request Creation and Storage with SQLite DataBase.",
+      "Features: Responsive Design, 3D Transformations, Interactive Sliders/Carousels, SEO Optimization, Scroll-Triggered Animations, Dynamic Content Loading, Request Creation and Storage with SQLite Database.",
     name: "Positivus - Digital Marketing Landing Page",
     designation: "",
     src: "/18.jpg",
