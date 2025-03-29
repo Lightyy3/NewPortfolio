@@ -138,7 +138,7 @@ export const workExperience = [
 export const testimonials = [
   {
     quote:
-      "Features: Authentication, Backend as a Service (BaaS) - Appwrite - NoSQL, Explore Page, Like, Save, Follow Functionality, User Page, CRUD Operations, React Query Integration, Responsive Design, Infinite Scrolling, Shadcn.",
+      "Features: Authentication, Backend as a Service (BaaS) - Appwrite - NoSQL, Explore Page, Like, Save, Comment Section, Follow Functionality, User Page, CRUD Operations, React Query Integration, Responsive Design, Infinite Scrolling, Shadcn.",
     name: "Threadr -  Social Media App",
     designation: "",
     src: "/12.png",
