@@ -152,7 +152,7 @@ export const testimonials = [
   },
   {
     quote:
-      "Features:  Modern UI/UX Experience, 3D Effects and Transformations, SVG Animations, Scroll-Triggered Animations, Parallax Scrolling, Animated Backgrounds, Redux, AI Integration, API Calls, Real Time Exchange Converter. ",
+      "Features:  Modern UI/UX Experience, 3D Effects and Transformations, SVG Animations, User Authentication, Scroll-Triggered Animations, Parallax Scrolling, Animated Backgrounds, Redux, AI Integration, API Calls, Real Time Exchange Converter. ",
     name: "Bank UI - Modern Fintech Dashboard",
     designation: "",
     src: "/17.jpg",
