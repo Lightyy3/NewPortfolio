@@ -74,15 +74,15 @@ export const projects = [
     id: 1,
     title: "Threadr - A Cutting-Edge Social Media App",
     des: "Discover Threadr, a lightning-fast and reliable social media app designed to help you effortlessly organize and share your ideas with the world.",
-    img: "/12.png",
+    img: "/23.jpg",
     iconLists: ["/re.svg", "/tail.svg", "/ts.svg"],
-    link: "https://yc-s42s.vercel.app/",
+    link: "https://threadr-iota.vercel.app/",
   },
   {
     id: 2,
     title: "Bank UI - Modern Fintech Dashboard",
     des: "A visually polished and interactive fintech UI, featuring smooth animations and cool effects, designed to enhance the asset management experience with clarity and ease of use.",
-    img: "/17.jpg",
+    img: "/21.jpg",
     iconLists: ["/re.svg", "/tail.svg", "/gsap.svg", "/three.svg"],
     link: "https://bank-ui-lemon.vercel.app/",
   },
@@ -138,10 +138,10 @@ export const workExperience = [
 export const testimonials = [
   {
     quote:
-      "Features: Authentication, Backend as a Service (BaaS) - Appwrite - NoSQL, Explore Page, Like, Save, Comment Section, Follow Functionality, User Page, CRUD Operations, React Query Integration, Responsive Design, Infinite Scrolling, Shadcn.",
+      "Features: Authentication, Prisma, Neon, PostgreSQL, Chat, For You Page, Following Page, Explore Page, Like, Save, Comment Section, Follow Functionality, Repost, User Page, CRUD Operations, React Query Integration, Responsive Design, Infinite Scrolling",
     name: "Threadr -  Social Media App",
     designation: "",
-    src: "/12.png",
+    src: "/19.jpg",
   },
   {
     quote:
